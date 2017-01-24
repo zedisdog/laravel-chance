@@ -1,0 +1,20 @@
+{
+    "name": "zedisdog/laravel-chance",
+    "description": "chance for laravel",
+    "type": "library",
+    "authors": [
+        {
+            "name": "zed",
+            "email": "zedsmail@163.com"
+        }
+    ],
+    "require": {
+        "zedisdog/chance": "^0.0.1",
+        "laravel/framework": "^5.3"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "zedisdog\\LarChance\\" : "src/"
+        }
+    }
+}
