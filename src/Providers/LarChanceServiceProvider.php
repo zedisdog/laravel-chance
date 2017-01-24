@@ -11,7 +11,7 @@ namespace zedisdog\LarChance\Providers;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
-use zedisdog\ChanceLib\Chance;
+use zedisdog\LarChance\Facades\Chance;
 
 class LarChanceServiceProvider extends ServiceProvider
 {
