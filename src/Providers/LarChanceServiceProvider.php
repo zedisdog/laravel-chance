@@ -15,7 +15,6 @@ use zedisdog\LarChance\Facades\Chance;
 
 class LarChanceServiceProvider extends ServiceProvider
 {
-    protected $defer = true;
     /**
      * Register the service provider.
      *
@@ -28,10 +27,5 @@ class LarChanceServiceProvider extends ServiceProvider
             $loader = AliasLoader::getInstance();
             $loader->alias('Chance', Chance::class);
         });
-    }
-
-    public function provides()
-    {
-        return [Chance::class];
     }
 }
